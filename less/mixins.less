@@ -1,1 +1,16 @@
 // Mixins in here
+.btnstyle(@h,@v) {
+display:flex;
+justify-content: @h;
+align-items:@v;
+}
+.btn {
+    .btnstyle(center,center);
+   background:teal;
+   height:45px;
+   color:white;
+   font-size:2rem;
+   border-radius:10px;
+   border:0.5px solid gray;
+   width:200px;
+}

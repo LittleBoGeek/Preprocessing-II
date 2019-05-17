@@ -12,3 +12,55 @@
 @shark: #212529;
 @eastern-blue: #17A2B8;
 @sandy-beach: #FFEBCD;
+
+@mobile: ~"(max-width:500px)";
+
+@media @mobile {
+    .header {
+        display:flex;
+        flex-direction: column;
+        width:80%;
+        text-align:center;
+        h1{
+            margin-bottom:500px;
+            text-align:center;
+            position: relative;
+            bottom:25px;
+
+        }
+        nav{
+            justify-content: center;
+        }
+        .btn {
+            width:100%;
+        }
+    }
+}
+@media @mobile {
+    .content-section {
+        display:flex;
+        flex-direction: column;
+      align-items:center;
+        height:10%;
+        width:90%;
+        padding:0;
+        
+        
+
+    }
+    .content-pick {
+        display:flex;
+        flex-direction: column;
+    align-items:center;
+         height:10%;
+         width:100%;
+        padding:0;
+        
+        
+    }
+    .btn{
+        width:100%;
+       
+    }
+   
+}
